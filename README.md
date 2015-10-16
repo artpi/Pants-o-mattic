@@ -2,6 +2,7 @@
 Wondering if you should put on your pants? This app will help you!
 
 ### iOS Swift playground app made in order to learn iOS
+Kudos @astralbodies for a great iOS development class!
 
 ![Logo](./screenshot/logo.png)
 # Some background
