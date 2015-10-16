@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2LD-PD-xdo">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="YWy-DJ-1me">
+            <objects>
+                <navigationController id="2LD-PD-xdo" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7Vt-Hb-B05">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Y2I-LU-1rv" kind="relationship" relationship="rootViewController" id="2Xi-8E-QFO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="22P-pI-tt3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-240" y="-281"/>
+        </scene>
+        <!--Pants View Controller-->
+        <scene sceneID="GNN-cW-DK9">
+            <objects>
+                <viewController id="Y2I-LU-1rv" customClass="PantsViewController" customModule="Pants_o_mattic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b4f-7s-pp1"/>
+                        <viewControllerLayoutGuide type="bottom" id="x3T-Cu-Rae"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="roR-Cw-Hpd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Should I wear pants here?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLq-lV-dl8">
+                                <rect key="frame" x="201" y="144" width="197.5" height="20.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Never!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD3-Tu-HFP">
+                                <rect key="frame" x="256.5" y="282" width="87" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tLq-lV-dl8" firstAttribute="centerX" secondItem="roR-Cw-Hpd" secondAttribute="centerX" id="6Gz-QT-ox6"/>
+                            <constraint firstItem="xD3-Tu-HFP" firstAttribute="centerX" secondItem="roR-Cw-Hpd" secondAttribute="centerX" id="eNz-8v-xg3"/>
+                            <constraint firstItem="xD3-Tu-HFP" firstAttribute="centerY" secondItem="roR-Cw-Hpd" secondAttribute="centerY" id="ihg-pS-2f8"/>
+                            <constraint firstItem="tLq-lV-dl8" firstAttribute="top" secondItem="b4f-7s-pp1" secondAttribute="bottom" constant="80" id="yOk-Cn-vDf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="boN-nW-r2c"/>
+                    <connections>
+                        <outlet property="pantsAnswer" destination="xD3-Tu-HFP" id="UuD-1z-WNH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q3p-9s-1u1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="448" y="-281"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="eX9-XC-UhV">
+            <objects>
+                <tableViewController id="5F9-gq-BYP" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="OOW-Wp-hGK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="aL3-K3-IqT">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aL3-K3-IqT" id="Pky-50-Jb6">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5F9-gq-BYP" id="wau-SW-kZx"/>
+                            <outlet property="delegate" destination="5F9-gq-BYP" id="RKy-wG-zxb"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="peW-sz-RaP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1122" y="-291"/>
+        </scene>
+    </scenes>
+</document>

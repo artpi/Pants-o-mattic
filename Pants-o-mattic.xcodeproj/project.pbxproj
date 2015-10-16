@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69F7901B1BD00DB4001D9AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7901A1BD00DB4001D9AAC /* AppDelegate.swift */; };
+		69F790241BD00DB4001D9AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F790221BD00DB4001D9AAC /* Main.storyboard */; };
+		69F790261BD00DB4001D9AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F790251BD00DB4001D9AAC /* Assets.xcassets */; };
+		69F790331BD01D65001D9AAC /* PantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F790321BD01D65001D9AAC /* PantsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		69F790351BD01E06001D9AAC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F790341BD01E06001D9AAC /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69F790171BD00DB3001D9AAC /* Pants-o-mattic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pants-o-mattic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F7901A1BD00DB4001D9AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69F790231BD00DB4001D9AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69F790251BD00DB4001D9AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69F7902A1BD00DB4001D9AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F790321BD01D65001D9AAC /* PantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PantsViewController.swift; sourceTree = "<group>"; };
+		69F790341BD01E06001D9AAC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69F790141BD00DB3001D9AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F790351BD01E06001D9AAC /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69F7900E1BD00DB3001D9AAC = {
+			isa = PBXGroup;
+			children = (
+				69F790341BD01E06001D9AAC /* CoreLocation.framework */,
+				69F790191BD00DB3001D9AAC /* Pants-o-mattic */,
+				69F790181BD00DB3001D9AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69F790181BD00DB3001D9AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69F790171BD00DB3001D9AAC /* Pants-o-mattic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69F790191BD00DB3001D9AAC /* Pants-o-mattic */ = {
+			isa = PBXGroup;
+			children = (
+				69F7901A1BD00DB4001D9AAC /* AppDelegate.swift */,
+				69F790221BD00DB4001D9AAC /* Main.storyboard */,
+				69F790251BD00DB4001D9AAC /* Assets.xcassets */,
+				69F7902A1BD00DB4001D9AAC /* Info.plist */,
+				69F790321BD01D65001D9AAC /* PantsViewController.swift */,
+			);
+			path = "Pants-o-mattic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69F790161BD00DB3001D9AAC /* Pants-o-mattic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F7902D1BD00DB4001D9AAC /* Build configuration list for PBXNativeTarget "Pants-o-mattic" */;
+			buildPhases = (
+				69F790131BD00DB3001D9AAC /* Sources */,
+				69F790141BD00DB3001D9AAC /* Frameworks */,
+				69F790151BD00DB3001D9AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pants-o-mattic";
+			productName = "Pants-o-mattic";
+			productReference = 69F790171BD00DB3001D9AAC /* Pants-o-mattic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69F7900F1BD00DB3001D9AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Automattic;
+				TargetAttributes = {
+					69F790161BD00DB3001D9AAC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 69F790121BD00DB3001D9AAC /* Build configuration list for PBXProject "Pants-o-mattic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69F7900E1BD00DB3001D9AAC;
+			productRefGroup = 69F790181BD00DB3001D9AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69F790161BD00DB3001D9AAC /* Pants-o-mattic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69F790151BD00DB3001D9AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F790261BD00DB4001D9AAC /* Assets.xcassets in Resources */,
+				69F790241BD00DB4001D9AAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69F790131BD00DB3001D9AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F7901B1BD00DB4001D9AAC /* AppDelegate.swift in Sources */,
+				69F790331BD01D65001D9AAC /* PantsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69F790221BD00DB4001D9AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F790231BD00DB4001D9AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69F7902B1BD00DB4001D9AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69F7902C1BD00DB4001D9AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69F7902E1BD00DB4001D9AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pants-o-mattic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Automattic.Pants-o-mattic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69F7902F1BD00DB4001D9AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pants-o-mattic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Automattic.Pants-o-mattic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69F790121BD00DB3001D9AAC /* Build configuration list for PBXProject "Pants-o-mattic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F7902B1BD00DB4001D9AAC /* Debug */,
+				69F7902C1BD00DB4001D9AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F7902D1BD00DB4001D9AAC /* Build configuration list for PBXNativeTarget "Pants-o-mattic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F7902E1BD00DB4001D9AAC /* Debug */,
+				69F7902F1BD00DB4001D9AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69F7900F1BD00DB3001D9AAC /* Project object */;
+}
